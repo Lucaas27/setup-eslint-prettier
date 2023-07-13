@@ -5,10 +5,11 @@
   "description": "This will bootstrap the setup of ESlint, Prettier and Airbnb rules for ESlint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Lucas Gomes",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^8.44.0",
     "eslint-config-airbnb-base": "^15.0.0",
