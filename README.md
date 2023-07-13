@@ -1,7 +1,7 @@
 <div align="center" id="top"> 
   <img src="./.github/app.gif" alt="Setup Eslint Prettier" />
 
-  &#xa0;
+&#xa0;
 
   <!-- <a href="https://setupeslintprettier.netlify.app">Demo</a> -->
 </div>
@@ -26,9 +26,9 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
+<!-- <h4 align="center">
 	🚧  Setup Eslint Prettier 🚀 Under construction...  🚧
-</h4> 
+</h4>
 
 <hr> -->
 
@@ -42,40 +42,43 @@
 
 <br>
 
-## :dart: About ##
+## :dart: About
 
 This npm package will bootstrap the set up of prettier and ESlint for a project.
+It assumes your project is using ECMAScript modules.
 It will also create .editorconfig and .prettierrc files with some rules. These rules can all be customised.
 
 This is intended for my personal use but feel free to use it. It has some prettier and ESlint rules (airbnb) set up.
-You can also choose between a React project of just Node. 
+You can also choose between a React project of just Node.
 The difference will be that the react option comes with an ESlint plugin for react.
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requirements
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Starting
+
+You can run this package with npx - This will let you execute the package without the need to install it locally.
+This is the preferred way to run it.
 
 ```bash
-# Clone this project
-$ git clone https://github.com/Lucaas27/setup-eslint-prettier
 
-# Access
-$ cd setup-eslint-prettier
-
-# Install dependencies
-$ npm install
-
-# Run the project
-$ npm run start
+$ npx setup-eslint-prettier
 
 ```
 
-## :memo: License ##
+Install the package locally
+
+```bash
+$ npm install -D setup-eslint-prettier
+
+```
+
+Both commands need to be run from the root directory of your node project.
+
+## :memo: License
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
 
 Made with :heart: by <a href="https://github.com/Lucaas27" target="_blank">Lucas Gomes</a>
 
