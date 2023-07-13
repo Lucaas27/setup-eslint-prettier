@@ -1,10 +1,9 @@
-<div align="center" id="top"> 
+<!-- <div align="center" id="top">
   <img src="./.github/app.gif" alt="Setup Eslint Prettier" />
 
 &#xa0;
 
-  <!-- <a href="https://setupeslintprettier.netlify.app">Demo</a> -->
-</div>
+</div> -->
 
 <h1 align="center">Setup Eslint Prettier</h1>
 
@@ -78,7 +77,7 @@ Both commands need to be run from the root directory of your node project.
 
 ## :memo: License
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
 Made with :heart: by <a href="https://github.com/Lucaas27" target="_blank">Lucas Gomes</a>
 
