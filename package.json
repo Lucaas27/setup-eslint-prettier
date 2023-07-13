@@ -1,6 +1,12 @@
 {
   "name": "setup-eslint-prettier",
   "version": "2.1.0",
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "setup-eslint-prettier": "index.js"
+  },
   "type": "module",
   "description": "This will bootstrap the setup of ESlint, Prettier and Airbnb rules for ESlint",
   "main": "index.js",
